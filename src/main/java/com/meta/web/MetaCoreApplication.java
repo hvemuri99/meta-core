@@ -12,7 +12,7 @@ public class MetaCoreApplication {
 
     public static void main(String[] args) {
         SpringApplication.run(MetaCoreApplication.class, args);
-        DOMConfigurator.configure("metas-core\\src\\main\\resources\\metas-log4j.xml");
+        DOMConfigurator.configure("src\\main\\resources\\metas-log4j.xml");
         LOGGER.info("meta-core app started");
     }
 }
